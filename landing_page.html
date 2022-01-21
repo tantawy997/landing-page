@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="landing_page.css" />
+    <title>landing_page</title>
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img"
+        src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+        alt="original trombones logo"
+        width="300px"
+      />
+      <nav id="nav-bar">
+        <a class="nav-link" href="#copyright">copyright</a>
+        <a class="nav-link" href="#front">How It Works</a>
+        <a class="nav-link" href="#features">features</a>
+      </nav>
+    </header>
+    <section id="front">
+      <video src="hwak.mp4" width="400" height="250" controls id="video">
+        <source src="hwak.mp4" type="video/mp4" />
+        <source src="movie.ogg" type="video/ogg" />
+        your browser does not support the video tag
+      </video>
+      <form
+        action="https://www.freecodecamp.com/email-submit"
+        method="get"
+        id="form"
+      >
+        <label for="email">email</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="enter email address"
+        />
+        <input type="submit" name="submit" id="submit" />
+      </form>
+      <div id="features">
+        <div class="first">
+          Premium Materials
+          <p>
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </div>
+        <div class="second">
+          Fast Shipping
+          <p>
+            We make sure you recieve your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+        </div>
+        <div class="Quality Assurance">
+          Quality Assurance
+          <p>
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer id="copyright">copyright@abderhman eltantawy</footer>
+  </body>
+</html>
